@@ -12,14 +12,17 @@
         <h1>Weather Dashboard</h1>
     </header>
     <main>
-        <div>
+
+        <div id="box">
             <form class ="searchbox">
                 <h2>Search for a City</h2>
                 <input type="text" placeholder="San Diego" name="city" class="textBox">
                 <br>
                 <button class="btn">Search</button>
+                <br>
             </form>
         </div>
+        <div class="container">
         <div id="current">
             <h1 id="cityName"></h1>
             <img id="logo">
@@ -62,6 +65,7 @@
             <p id="windNow5"></p>
             <p id="humidNow5"></p>
         </div>
+    </div>
     </main>
     <footer></footer>
     <script src="index.js"></script>

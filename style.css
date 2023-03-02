@@ -51,3 +51,8 @@ header h1{
     font-size:14pt;
 }
 
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
